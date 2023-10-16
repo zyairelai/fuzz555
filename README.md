@@ -3,7 +3,7 @@ Reading JSON from Burp Logger++ and make it ready for Nuclei Fuzzing!
 
 # GRAB THE SCRIPT
 ```
-wget https://raw.githubusercontent.com/zyairelai/fuzz555/main/run.py -O fuzz555.py
+wget https://raw.githubusercontent.com/zyairelai/fuzz555/main/run.py
 ```
 
 # Tutorial / Usage
