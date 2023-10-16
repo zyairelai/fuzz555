@@ -1,6 +1,9 @@
 # fuzz555
 Reading JSON from Burp Logger++ and make it ready for Nuclei Fuzzing!
 
+![image](https://github.com/zyairelai/fuzz555/assets/49854907/67a883dc-406e-4d2e-826f-f643ee9b6f1f)
+
+
 # GRAB THE SCRIPT
 ```
 wget https://raw.githubusercontent.com/zyairelai/fuzz555/main/fuzz555.py
