@@ -1,0 +1,170 @@
+[
+    {
+        "Entry":
+        {
+            "Tool": "Proxy",
+            "Tags":
+            [],
+            "InScope": false,
+            "ListenInterface": "",
+            "ClientIP": ""
+        },
+        "Request":
+        {
+            "AsBase64": "R0VUIC9waHBNeUFkbWluL2luZGV4LnBocD90b2tlbj01NjZlZjYzMGU4ZjgyMzNmMzUxN2E1YjI2NjllZjJkZCBIVFRQLzEuMQ0KSG9zdDogMTkyLjE2OC4xODMuMTU5DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0OyBydjoxMDkuMCkgR2Vja28vMjAxMDAxMDEgRmlyZWZveC8xMTguMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS9hdmlmLGltYWdlL3dlYnAsKi8qO3E9MC44DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC41DQpBY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyDQpSZWZlcmVyOiBodHRwOi8vMTkyLjE2OC4xODMuMTU5L3BocE15QWRtaW4vaW5kZXgucGhwP3Rva2VuPTU2NmVmNjMwZThmODIzM2YzNTE3YTViMjY2OWVmMmRkDQpDb25uZWN0aW9uOiBjbG9zZQ0KQ29va2llOiBwaHBNeUFkbWluPTNhMTdiYjkwYTk4NTk0N2FjMjQzOTA1MzMxN2MyYWE5NjNkZGVlNTg7IHBtYV9sYW5nPWVuLXV0Zi04OyBwbWFfY2hhcnNldD11dGYtODsgcG1hVXNlci0xPWl1ZWZaJTJGOTRETFElM0Q7IHBtYV9mb250c2l6ZT04MiUyNTsgcG1hUGFzcy0xPWl1ZWZaJTJGOTRETFElM0QNClVwZ3JhZGUtSW5zZWN1cmUtUmVxdWVzdHM6IDENCg0K",
+            "Headers": "Host: 192.168.183.159\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate, br\r\nReferer: http://192.168.183.159/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd\r\nConnection: close\r\nCookie: phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58; pma_lang=en-utf-8; pma_charset=utf-8; pmaUser-1=iuefZ%2F94DLQ%3D; pma_fontsize=82%25; pmaPass-1=iuefZ%2F94DLQ%3D\r\nUpgrade-Insecure-Requests: 1",
+            "Body": "",
+            "BodyLength": 0,
+            "Time": "Oct 16, 2023, 10:42:03 PM",
+            "Length": 0,
+            "Tool": "Proxy",
+            "Complete": true,
+            "URL": "http://192.168.183.159/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd",
+            "Method": "GET",
+            "Path": "/phpMyAdmin/index.php",
+            "Query": "token=566ef630e8f8233f3517a5b2669ef2dd",
+            "PathQuery": "/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd",
+            "Protocol": "http",
+            "IsSSL": false,
+            "UsesCookieJar": "Partially",
+            "Hostname": "192.168.183.159",
+            "Host": "http://192.168.183.159",
+            "Port": 80,
+            "ContentType": "",
+            "RequestHttpVersion": "192.168.183.159",
+            "Extension": "php",
+            "Referrer": "http://192.168.183.159/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd",
+            "HasParams": true,
+            "HasGetParam": true,
+            "HasPostParam": false,
+            "HasSentCookies": true,
+            "CookieString": "phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58; pma_lang=en-utf-8; pma_charset=utf-8; pmaUser-1=iuefZ%2F94DLQ%3D; pma_fontsize=82%25; pmaPass-1=iuefZ%2F94DLQ%3D;",
+            "ParameterCount": 1,
+            "Parameters":
+            [
+                "token"
+            ],
+            "Origin": ""
+        },
+        "Response":
+        {
+            "AsBase64": "SFRUUC8xLjEgMjAwIE9LDQpEYXRlOiBNb24sIDE2IE9jdCAyMDIzIDE0OjQyOjA4IEdNVA0KU2VydmVyOiBBcGFjaGUvMi4yLjggKFVidW50dSkgREFWLzINClgtUG93ZXJlZC1CeTogUEhQLzUuMi40LTJ1YnVudHU1LjEwDQpFeHBpcmVzOiBUaHUsIDE5IE5vdiAxOTgxIDA4OjUyOjAwIEdNVA0KQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbWF4LWFnZT0xMDgwMCwgcHJlLWNoZWNrPTEwODAwDQpTZXQtQ29va2llOiBwbWFfZm9udHNpemU9ZGVsZXRlZDsgZXhwaXJlcz1TdW4sIDE2LU9jdC0yMDIyIDE0OjQyOjA3IEdNVDsgcGF0aD0vcGhwTXlBZG1pbi8NClNldC1Db29raWU6IHBtYV9mb250c2l6ZT1kZWxldGVkOyBleHBpcmVzPVN1biwgMTYtT2N0LTIwMjIgMTQ6NDI6MDcgR01UOyBwYXRoPS9waHBNeUFkbWluLw0KU2V0LUNvb2tpZTogcG1hX2NvbGxhdGlvbl9jb25uZWN0aW9uPWRlbGV0ZWQ7IGV4cGlyZXM9U3VuLCAxNi1PY3QtMjAyMiAxNDo0MjowNyBHTVQ7IHBhdGg9L3BocE15QWRtaW4vOyBodHRwb25seQ0KU2V0LUNvb2tpZTogcG1hX3RoZW1lPW9yaWdpbmFsOyBleHBpcmVzPVdlZCwgMTUtTm92LTIwMjMgMTQ6NDI6MDggR01UOyBwYXRoPS9waHBNeUFkbWluLzsgaHR0cG9ubHkNClNldC1Db29raWU6IHBtYVBhc3MtMT1kZWxldGVkOyBleHBpcmVzPVN1biwgMTYtT2N0LTIwMjIgMTQ6NDI6MDcgR01UOyBwYXRoPS9waHBNeUFkbWluLw0KTGFzdC1Nb2RpZmllZDogVHVlLCAwOSBEZWMgMjAwOCAxNzoyNDowMCBHTVQNCkNvbm5lY3Rpb246IGNsb3NlDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOA0KQ29udGVudC1MZW5ndGg6IDMzNzYNCg0KPCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNpdGlvbmFsLy9FTiIKICAgICJodHRwOi8vd3d3LnczLm9yZy9UUi94aHRtbDEvRFREL3hodG1sMS10cmFuc2l0aW9uYWwuZHRkIj4KPGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHhtbDpsYW5nPSJlbiIgbGFuZz0iZW4iIGRpcj0ibHRyIj4KPGhlYWQ+CiAgICA8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIgLz4KICAgIDxsaW5rIHJlbD0iaWNvbiIgaHJlZj0iLi9mYXZpY29uLmljbyIgdHlwZT0iaW1hZ2UveC1pY29uIiAvPgogICAgPGxpbmsgcmVsPSJzaG9ydGN1dCBpY29uIiBocmVmPSIuL2Zhdmljb24uaWNvIiB0eXBlPSJpbWFnZS94LWljb24iIC8+CiAgICA8dGl0bGU+cGhwTXlBZG1pbiA8L3RpdGxlPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0icGhwbXlhZG1pbi5jc3MucGhwP3Rva2VuPTU2NmVmNjMwZThmODIzM2YzNTE3YTViMjY2OWVmMmRkJmFtcDtqc19mcmFtZT1yaWdodCZhbXA7bm9jYWNoZT0yNDU3Njg3MjMzIiAvPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0icHJpbnQuY3NzIiBtZWRpYT0icHJpbnQiIC8+CiAgICA8bWV0YSBuYW1lPSJyb2JvdHMiIGNvbnRlbnQ9Im5vaW5kZXgsbm9mb2xsb3ciIC8+CjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KLy88IVtDREFUQVsKLy8gc2hvdyBsb2dpbiBmb3JtIGluIHRvcCBmcmFtZQppZiAodG9wICE9IHNlbGYpIHsKICAgIHdpbmRvdy50b3AubG9jYXRpb24uaHJlZj1sb2NhdGlvbjsKfQovL11dPgo8L3NjcmlwdD4KPC9oZWFkPgoKPGJvZHkgY2xhc3M9ImxvZ2luZm9ybSI+CgogICAgCjxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CjxhIGhyZWY9Imh0dHA6Ly93d3cucGhwbXlhZG1pbi5uZXQiIHRhcmdldD0iX2JsYW5rIiBjbGFzcz0ibG9nbyI+PGltZyBzcmM9Ii4vdGhlbWVzL29yaWdpbmFsL2ltZy9sb2dvX3JpZ2h0LnBuZyIgaWQ9ImltTG9nbyIgbmFtZT0iaW1Mb2dvIiBhbHQ9InBocE15QWRtaW4iIGJvcmRlcj0iMCIgLz48L2E+CjxoMT4KICAgIFdlbGNvbWUgdG8gPGJkbyBkaXI9Imx0ciIgeG1sOmxhbmc9ImVuIj5waHBNeUFkbWluIDwvYmRvPjwvaDE+CiAgICA8ZGl2IGNsYXNzPSJlcnJvciI+IzEwNDUgLSBBY2Nlc3MgZGVuaWVkIGZvciB1c2VyICcnJ0AnbG9jYWxob3N0JyAodXNpbmcgcGFzc3dvcmQ6IFlFUyk8L2Rpdj4KPGZvcm0gbWV0aG9kPSJwb3N0IiBhY3Rpb249ImluZGV4LnBocCIgdGFyZ2V0PSJfcGFyZW50Ij4KICAgIDxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9ImRiIiB2YWx1ZT0iIiAvPjxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9InRhYmxlIiB2YWx1ZT0iIiAvPjxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9InRva2VuIiB2YWx1ZT0iNTY2ZWY2MzBlOGY4MjMzZjM1MTdhNWIyNjY5ZWYyZGQiIC8+PGZpZWxkc2V0PjxsZWdlbmQgeG1sOmxhbmc9ImVuIiBkaXI9Imx0ciI+TGFuZ3VhZ2U8L2xlZ2VuZD4KICAgIDxzZWxlY3QgbmFtZT0ibGFuZyIgb25jaGFuZ2U9InRoaXMuZm9ybS5zdWJtaXQoKTsiIHhtbDpsYW5nPSJlbiIgZGlyPSJsdHIiPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJlbi11dGYtOCIgc2VsZWN0ZWQ9InNlbGVjdGVkIj5FbmdsaXNoPC9vcHRpb24+CgogICAgPC9zZWxlY3Q+CiAgICA8L2ZpZWxkc2V0PgogICAgPG5vc2NyaXB0PgogICAgPGZpZWxkc2V0IGNsYXNzPSJ0YmxGb290ZXJzIj4KICAgICAgICA8aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iR28iIC8+CiAgICA8L2ZpZWxkc2V0PgogICAgPC9ub3NjcmlwdD4KPC9mb3JtPgogICAgPGJyIC8+CjwhLS0gTG9naW4gZm9ybSAtLT4KPGZvcm0gbWV0aG9kPSJwb3N0IiBhY3Rpb249ImluZGV4LnBocCIgbmFtZT0ibG9naW5fZm9ybSIgYXV0b2NvbXBsZXRlPSJvZmYiIHRhcmdldD0iX3RvcCIgY2xhc3M9ImxvZ2luIj4KICAgIDxmaWVsZHNldD4KICAgIDxsZWdlbmQ+CkxvZyBpbjwvbGVnZW5kPgoKICAgICAgICA8ZGl2IGNsYXNzPSJpdGVtIj4KICAgICAgICAgICAgPGxhYmVsIGZvcj0iaW5wdXRfdXNlcm5hbWUiPlVzZXJuYW1lOjwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJwbWFfdXNlcm5hbWUiIGlkPSJpbnB1dF91c2VybmFtZSIgdmFsdWU9IiIgc2l6ZT0iMjQiIGNsYXNzPSJ0ZXh0ZmllbGQiLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJpdGVtIj4KICAgICAgICAgICAgPGxhYmVsIGZvcj0iaW5wdXRfcGFzc3dvcmQiPlBhc3N3b3JkOjwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJwYXNzd29yZCIgbmFtZT0icG1hX3Bhc3N3b3JkIiBpZD0iaW5wdXRfcGFzc3dvcmQiIHZhbHVlPSIiIHNpemU9IjI0IiBjbGFzcz0idGV4dGZpZWxkIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9InNlcnZlciIgdmFsdWU9IjEiIC8+ICAgIDwvZmllbGRzZXQ+CiAgICA8ZmllbGRzZXQgY2xhc3M9InRibEZvb3RlcnMiPgogICAgICAgIDxpbnB1dCB2YWx1ZT0iR28iIHR5cGU9InN1Ym1pdCIgaWQ9ImlucHV0X2dvIiAvPgogICAgPGlucHV0IHR5cGU9ImhpZGRlbiIgbmFtZT0idG9rZW4iIHZhbHVlPSI1NjZlZjYzMGU4ZjgyMzNmMzUxN2E1YjI2NjllZjJkZCIgLz4gICAgPC9maWVsZHNldD4KPC9mb3JtPgoKICAgIDxkaXY+PGRpdiBjbGFzcz0id2FybmluZyI+Q2Fubm90IGxvYWQgPGEgaHJlZj0iaHR0cDovL3BocC5uZXQvbWNyeXB0IiB0YXJnZXQ9IkRvY3VtZW50YXRpb24iPjxlbT5tY3J5cHQ8L2VtPjwvYT4gZXh0ZW5zaW9uLiBQbGVhc2UgY2hlY2sgeW91ciBQSFAgY29uZmlndXJhdGlvbi48L2Rpdj48L2Rpdj48L2Rpdj4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgovLyA8IVtDREFUQVsKZnVuY3Rpb24gUE1BX2ZvY3VzSW5wdXQoKQp7CiAgICB2YXIgaW5wdXRfdXNlcm5hbWUgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnaW5wdXRfdXNlcm5hbWUnKTsKICAgIHZhciBpbnB1dF9wYXNzd29yZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdpbnB1dF9wYXNzd29yZCcpOwogICAgaWYgKGlucHV0X3VzZXJuYW1lLnZhbHVlID09ICcnKSB7CiAgICAgICAgaW5wdXRfdXNlcm5hbWUuZm9jdXMoKTsKICAgIH0gZWxzZSB7CiAgICAgICAgaW5wdXRfcGFzc3dvcmQuZm9jdXMoKTsKICAgIH0KfQoKd2luZG93LnNldFRpbWVvdXQoJ1BNQV9mb2N1c0lucHV0KCknLCA1MDApOwovLyBdXT4KPC9zY3JpcHQ+CiAgICA8L2JvZHk+CjwvaHRtbD4KICAgIA==",
+            "Headers": "Date: Mon, 16 Oct 2023 14:42:08 GMT\r\nServer: Apache/2.2.8 (Ubuntu) DAV/2\r\nX-Powered-By: PHP/5.2.4-2ubuntu5.10\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: private, max-age=10800, pre-check=10800\r\nSet-Cookie: pma_fontsize=deleted; expires=Sun, 16-Oct-2022 14:42:07 GMT; path=/phpMyAdmin/\r\nSet-Cookie: pma_fontsize=deleted; expires=Sun, 16-Oct-2022 14:42:07 GMT; path=/phpMyAdmin/\r\nSet-Cookie: pma_collation_connection=deleted; expires=Sun, 16-Oct-2022 14:42:07 GMT; path=/phpMyAdmin/; httponly\r\nSet-Cookie: pma_theme=original; expires=Wed, 15-Nov-2023 14:42:08 GMT; path=/phpMyAdmin/; httponly\r\nSet-Cookie: pmaPass-1=deleted; expires=Sun, 16-Oct-2022 14:42:07 GMT; path=/phpMyAdmin/\r\nLast-Modified: Tue, 09 Dec 2008 17:24:00 GMT\r\nConnection: close\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 3376",
+            "Body": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n    \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\" dir=\"ltr\">\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n    <link rel=\"icon\" href=\"./favicon.ico\" type=\"image/x-icon\" />\n    <link rel=\"shortcut icon\" href=\"./favicon.ico\" type=\"image/x-icon\" />\n    <title>phpMyAdmin </title>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"phpmyadmin.css.php?token=566ef630e8f8233f3517a5b2669ef2dd&amp;js_frame=right&amp;nocache=2457687233\" />\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"print.css\" media=\"print\" />\n    <meta name=\"robots\" content=\"noindex,nofollow\" />\n<script type=\"text/javascript\">\n//<![CDATA[\n// show login form in top frame\nif (top != self) {\n    window.top.location.href=location;\n}\n//]]>\n</script>\n</head>\n\n<body class=\"loginform\">\n\n    \n<div class=\"container\">\n<a href=\"http://www.phpmyadmin.net\" target=\"_blank\" class=\"logo\"><img src=\"./themes/original/img/logo_right.png\" id=\"imLogo\" name=\"imLogo\" alt=\"phpMyAdmin\" border=\"0\" /></a>\n<h1>\n    Welcome to <bdo dir=\"ltr\" xml:lang=\"en\">phpMyAdmin </bdo></h1>\n    <div class=\"error\">#1045 - Access denied for user '''@'localhost' (using password: YES)</div>\n<form method=\"post\" action=\"index.php\" target=\"_parent\">\n    <input type=\"hidden\" name=\"db\" value=\"\" /><input type=\"hidden\" name=\"table\" value=\"\" /><input type=\"hidden\" name=\"token\" value=\"566ef630e8f8233f3517a5b2669ef2dd\" /><fieldset><legend xml:lang=\"en\" dir=\"ltr\">Language</legend>\n    <select name=\"lang\" onchange=\"this.form.submit();\" xml:lang=\"en\" dir=\"ltr\">\n            <option value=\"en-utf-8\" selected=\"selected\">English</option>\n\n    </select>\n    </fieldset>\n    <noscript>\n    <fieldset class=\"tblFooters\">\n        <input type=\"submit\" value=\"Go\" />\n    </fieldset>\n    </noscript>\n</form>\n    <br />\n<!-- Login form -->\n<form method=\"post\" action=\"index.php\" name=\"login_form\" autocomplete=\"off\" target=\"_top\" class=\"login\">\n    <fieldset>\n    <legend>\nLog in</legend>\n\n        <div class=\"item\">\n            <label for=\"input_username\">Username:</label>\n            <input type=\"text\" name=\"pma_username\" id=\"input_username\" value=\"\" size=\"24\" class=\"textfield\"/>\n        </div>\n        <div class=\"item\">\n            <label for=\"input_password\">Password:</label>\n            <input type=\"password\" name=\"pma_password\" id=\"input_password\" value=\"\" size=\"24\" class=\"textfield\" />\n        </div>\n        <input type=\"hidden\" name=\"server\" value=\"1\" />    </fieldset>\n    <fieldset class=\"tblFooters\">\n        <input value=\"Go\" type=\"submit\" id=\"input_go\" />\n    <input type=\"hidden\" name=\"token\" value=\"566ef630e8f8233f3517a5b2669ef2dd\" />    </fieldset>\n</form>\n\n    <div><div class=\"warning\">Cannot load <a href=\"http://php.net/mcrypt\" target=\"Documentation\"><em>mcrypt</em></a> extension. Please check your PHP configuration.</div></div></div>\n<script type=\"text/javascript\">\n// <![CDATA[\nfunction PMA_focusInput()\n{\n    var input_username = document.getElementById('input_username');\n    var input_password = document.getElementById('input_password');\n    if (input_username.value == '') {\n        input_username.focus();\n    } else {\n        input_password.focus();\n    }\n}\n\nwindow.setTimeout('PMA_focusInput()', 500);\n// ]]>\n</script>\n    </body>\n</html>\n    ",
+            "BodyLength": 3376,
+            "hash": "1c2854b22c89d8a9bab55cb593baef7c1656ab6c",
+            "Time": "Oct 16, 2023, 10:42:03 PM",
+            "Length": 3376,
+            "Status": 200,
+            "StatusText": "",
+            "ResponseHttpVersion": "",
+            "RTT": 88,
+            "Title": "phpMyAdmin ",
+            "ContentType": "text/html; charset=utf-8",
+            "InferredType": "HTML",
+            "MimeType": "HTML",
+            "HasSetCookies": true,
+            "Cookies":
+            [
+                "pma_fontsize=deleted",
+                "pma_fontsize=deleted",
+                "pma_collation_connection=deleted",
+                "pma_theme=original",
+                "pmaPass-1=deleted"
+            ],
+            "ReflectedParams":
+            [
+                "token",
+                "pma_lang",
+                "pma_charset"
+            ],
+            "Reflections": 3
+        }
+    },
+    {
+        "Entry":
+        {
+            "Tool": "Proxy",
+            "Tags":
+            [],
+            "InScope": false,
+            "ListenInterface": "",
+            "ClientIP": ""
+        },
+        "Request":
+        {
+            "AsBase64": "UE9TVCAvcGhwTXlBZG1pbi9pbmRleC5waHAgSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguMTgzLjE1OQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NDsgcnY6MTA5LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvMTE4LjANCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLCovKjtxPTAuOA0KQWNjZXB0LUxhbmd1YWdlOiBlbi1VUyxlbjtxPTAuNQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlLCBicg0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQNCkNvbnRlbnQtTGVuZ3RoOiAyNzYNCk9yaWdpbjogaHR0cDovLzE5Mi4xNjguMTgzLjE1OQ0KQ29ubmVjdGlvbjogY2xvc2UNClJlZmVyZXI6IGh0dHA6Ly8xOTIuMTY4LjE4My4xNTkvcGhwTXlBZG1pbi8NCkNvb2tpZTogcGhwTXlBZG1pbj0zYTE3YmI5MGE5ODU5NDdhYzI0MzkwNTMzMTdjMmFhOTYzZGRlZTU4OyBwbWFfbGFuZz1lbi11dGYtODsgcG1hX2NoYXJzZXQ9dXRmLTg7IHBtYV90aGVtZT1vcmlnaW5hbDsgcG1hX2ZvbnRzaXplPTgyJTI1DQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCnBocE15QWRtaW49M2ExN2JiOTBhOTg1OTQ3YWMyNDM5MDUzMzE3YzJhYTk2M2RkZWU1OCZwaHBNeUFkbWluPTNhMTdiYjkwYTk4NTk0N2FjMjQzOTA1MzMxN2MyYWE5NjNkZGVlNTgmcG1hX3VzZXJuYW1lPWFkbWluJnBtYV9wYXNzd29yZD1wYXNzd29yZCZzZXJ2ZXI9MSZwaHBNeUFkbWluPTNhMTdiYjkwYTk4NTk0N2FjMjQzOTA1MzMxN2MyYWE5NjNkZGVlNTgmbGFuZz1lbi11dGYtOCZjb252Y2hhcnNldD11dGYtOCZ0b2tlbj01NjZlZjYzMGU4ZjgyMzNmMzUxN2E1YjI2NjllZjJkZA==",
+            "Headers": "Host: 192.168.183.159\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate, br\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 276\r\nOrigin: http://192.168.183.159\r\nConnection: close\r\nReferer: http://192.168.183.159/phpMyAdmin/\r\nCookie: phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58; pma_lang=en-utf-8; pma_charset=utf-8; pma_theme=original; pma_fontsize=82%25\r\nUpgrade-Insecure-Requests: 1",
+            "Body": "phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58&phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58&pma_username=admin&pma_password=password&server=1&phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58&lang=en-utf-8&convcharset=utf-8&token=566ef630e8f8233f3517a5b2669ef2dd",
+            "BodyLength": 276,
+            "Time": "Oct 16, 2023, 10:41:57 PM",
+            "Length": 276,
+            "Tool": "Proxy",
+            "Complete": true,
+            "URL": "http://192.168.183.159/phpMyAdmin/index.php",
+            "Method": "POST",
+            "Path": "/phpMyAdmin/index.php",
+            "PathQuery": "/phpMyAdmin/index.php",
+            "Protocol": "http",
+            "IsSSL": false,
+            "UsesCookieJar": "Partially",
+            "Hostname": "192.168.183.159",
+            "Host": "http://192.168.183.159",
+            "Port": 80,
+            "ContentType": "application/x-www-form-urlencoded",
+            "RequestHttpVersion": "192.168.183.159",
+            "Extension": "php",
+            "Referrer": "http://192.168.183.159/phpMyAdmin/",
+            "HasParams": true,
+            "HasGetParam": false,
+            "HasPostParam": true,
+            "HasSentCookies": true,
+            "CookieString": "phpMyAdmin=3a17bb90a985947ac2439053317c2aa963ddee58; pma_lang=en-utf-8; pma_charset=utf-8; pma_theme=original; pma_fontsize=82%25;",
+            "ParameterCount": 9,
+            "Parameters":
+            [
+                "phpMyAdmin",
+                "phpMyAdmin",
+                "pma_username",
+                "pma_password",
+                "server",
+                "phpMyAdmin",
+                "lang",
+                "convcharset",
+                "token"
+            ],
+            "Origin": "http://192.168.183.159"
+        },
+        "Response":
+        {
+            "AsBase64": "SFRUUC8xLjEgMzAyIEZvdW5kDQpEYXRlOiBNb24sIDE2IE9jdCAyMDIzIDE0OjQyOjAyIEdNVA0KU2VydmVyOiBBcGFjaGUvMi4yLjggKFVidW50dSkgREFWLzINClgtUG93ZXJlZC1CeTogUEhQLzUuMi40LTJ1YnVudHU1LjEwDQpFeHBpcmVzOiBUaHUsIDE5IE5vdiAxOTgxIDA4OjUyOjAwIEdNVA0KQ2FjaGUtQ29udHJvbDogcHJpdmF0ZSwgbWF4LWFnZT0xMDgwMCwgcHJlLWNoZWNrPTEwODAwDQpTZXQtQ29va2llOiBwbWFfZm9udHNpemU9ZGVsZXRlZDsgZXhwaXJlcz1TdW4sIDE2LU9jdC0yMDIyIDE0OjQyOjAxIEdNVDsgcGF0aD0vcGhwTXlBZG1pbi8NClNldC1Db29raWU6IHBtYV9jb2xsYXRpb25fY29ubmVjdGlvbj1kZWxldGVkOyBleHBpcmVzPVN1biwgMTYtT2N0LTIwMjIgMTQ6NDI6MDEgR01UOyBwYXRoPS9waHBNeUFkbWluLzsgaHR0cG9ubHkNClNldC1Db29raWU6IHBtYV90aGVtZT1kZWxldGVkOyBleHBpcmVzPVN1biwgMTYtT2N0LTIwMjIgMTQ6NDI6MDEgR01UOyBwYXRoPS9waHBNeUFkbWluLw0KU2V0LUNvb2tpZTogcG1hVXNlci0xPWclMkZPOTgzZ25CWGslM0Q7IGV4cGlyZXM9V2VkLCAxNS1Ob3YtMjAyMyAxNDo0MjowMiBHTVQ7IHBhdGg9L3BocE15QWRtaW4vOyBodHRwb25seQ0KU2V0LUNvb2tpZTogcG1hUGFzcy0xPVN5Q21TMWNCS0tjJTNEOyBleHBpcmVzPVdlZCwgMTUtTm92LTIwMjMgMTQ6NDI6MDIgR01UOyBwYXRoPS9waHBNeUFkbWluLzsgaHR0cG9ubHkNCkxhc3QtTW9kaWZpZWQ6IFR1ZSwgMDkgRGVjIDIwMDggMTc6MjQ6MDAgR01UDQpMb2NhdGlvbjogaHR0cDovLzE5Mi4xNjguMTgzLjE1OS9waHBNeUFkbWluL2luZGV4LnBocD90b2tlbj01NjZlZjYzMGU4ZjgyMzNmMzUxN2E1YjI2NjllZjJkZA0KQ29udGVudC1MZW5ndGg6IDANCkNvbm5lY3Rpb246IGNsb3NlDQpDb250ZW50LVR5cGU6IHRleHQvaHRtbA0KDQo=",
+            "Headers": "Date: Mon, 16 Oct 2023 14:42:02 GMT\r\nServer: Apache/2.2.8 (Ubuntu) DAV/2\r\nX-Powered-By: PHP/5.2.4-2ubuntu5.10\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: private, max-age=10800, pre-check=10800\r\nSet-Cookie: pma_fontsize=deleted; expires=Sun, 16-Oct-2022 14:42:01 GMT; path=/phpMyAdmin/\r\nSet-Cookie: pma_collation_connection=deleted; expires=Sun, 16-Oct-2022 14:42:01 GMT; path=/phpMyAdmin/; httponly\r\nSet-Cookie: pma_theme=deleted; expires=Sun, 16-Oct-2022 14:42:01 GMT; path=/phpMyAdmin/\r\nSet-Cookie: pmaUser-1=g%2FO983gnBXk%3D; expires=Wed, 15-Nov-2023 14:42:02 GMT; path=/phpMyAdmin/; httponly\r\nSet-Cookie: pmaPass-1=SyCmS1cBKKc%3D; expires=Wed, 15-Nov-2023 14:42:02 GMT; path=/phpMyAdmin/; httponly\r\nLast-Modified: Tue, 09 Dec 2008 17:24:00 GMT\r\nLocation: http://192.168.183.159/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd\r\nContent-Length: 0\r\nConnection: close\r\nContent-Type: text/html",
+            "Body": "",
+            "BodyLength": 0,
+            "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "Time": "Oct 16, 2023, 10:41:57 PM",
+            "Length": 0,
+            "Redirect": "http://192.168.183.159/phpMyAdmin/index.php?token=566ef630e8f8233f3517a5b2669ef2dd",
+            "Status": 302,
+            "StatusText": "",
+            "ResponseHttpVersion": "",
+            "RTT": 68,
+            "Title": "",
+            "ContentType": "text/html",
+            "InferredType": "NONE",
+            "MimeType": "HTML",
+            "HasSetCookies": true,
+            "Cookies":
+            [
+                "pma_fontsize=deleted",
+                "pma_collation_connection=deleted",
+                "pma_theme=deleted",
+                "pmaUser-1=g%2FO983gnBXk%3D",
+                "pmaPass-1=SyCmS1cBKKc%3D"
+            ],
+            "ReflectedParams":
+            [],
+            "Reflections": 0
+        }
+    }
+]
