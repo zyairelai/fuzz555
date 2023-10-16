@@ -7,7 +7,7 @@ if len(sys.argv) != 2:
     sys.exit(-1)
 
 # Read the JSON data from uwu.json
-with open(sys.argv[0], 'r') as file:
+with open(sys.argv[1], 'r') as file:
     data = json.load(file)
 
 # Create or open a file for writing the extracted URLs
