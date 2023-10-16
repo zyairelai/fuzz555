@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/zyairelai/fuzz555/main/run.py -O fuzz555.
 
 ### 2. Run the script with the Logger++ JSON as input
 ```
-python3 run.py LoggerPlusPlus.json
+python3 fuzz555.py LoggerPlusPlus.json
 ```
 
 ### 3. The output will be compatible for Nuclei Fuzzing Template!
