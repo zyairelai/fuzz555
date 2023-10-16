@@ -29,3 +29,14 @@ http://192.168.183.159/phpMyAdmin/index.php?phpMyAdmin=FUZZ&phpMyAdmin=FUZZ&pma_
 ```
 nuclei -l modified_URL.txt -t '/opt/nuclei/fuzzing-templates'
 ```
+
+# About Nuclei 
+### 1. You need to have Nuclei installed
+- https://github.com/projectdiscovery/nuclei
+### 2. You have Nuclei Fuzzing Template installed
+- https://github.com/projectdiscovery/fuzzing-templates
+```
+sudo chown -R /opt <username>
+mkdir /opt/nuclei
+git clone https://github.com/projectdiscovery/fuzzing-templates.git /opt/nuclei/fuzzing-templates
+```
