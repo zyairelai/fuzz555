@@ -8,6 +8,11 @@ Reading JSON from Burp Logger++ and make it ready for Nuclei Fuzzing!
 ```
 wget https://raw.githubusercontent.com/zyairelai/fuzz555/main/fuzz555.py
 ```
+You can even move it to `/usr/bin/` and runs from anywhere!
+```
+chmod a+x fuzz555.py
+sudo mv fuzz555.py /usr/bin/
+```
 
 # Tutorial / Usage
 ### 1. Export all requests from Burp Logger++ Extension as JSON
