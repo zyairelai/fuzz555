@@ -25,7 +25,7 @@ with open('extracted_URL.txt', 'w') as output_file:
 print("[+] URLs have been extracted and saved to 'extracted_URL.txt'.")
 
 file_path = "extracted_URL.txt"
-cleaned_lines = []
+cleaned_lines = set()  # Use a set to keep track of unique lines
 
 with open(file_path, "r") as file:
     lines = file.readlines()
@@ -34,10 +34,12 @@ for line in lines:
     # Remove any trailing whitespace and question marks
     cleaned_line = line.rstrip("?").strip()
     if cleaned_line.startswith("http"):
-        cleaned_lines.append(cleaned_line + "\n")
+        cleaned_lines.add(cleaned_line)
 
 with open(file_path, "w") as file:
-    file.write("".join(cleaned_lines))
+    # Write the unique lines back to the file
+    for line in cleaned_lines:
+        file.write(line + "\n")
 
 # Define the filename of the input file
 input_filename = 'extracted_URL.txt'
