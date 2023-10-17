@@ -18,7 +18,7 @@ def extract_urls_from_json(json_filename, output_filename):
                     url += "?" + request.get('Body')
                 output_file.write(url + '\n')
 
-# Filter the URL starts with "http" and contains '?' , and sort
+# Filter the URL starts with "http" and contains '?'
 def filter_urls(input_file, output_file):
     filtered_urls = []
     with open(input_file, 'r') as infile:
@@ -26,11 +26,50 @@ def filter_urls(input_file, output_file):
             if '?' in line and line.startswith('http'):
                 filtered_urls.append(line)
 
-    filtered_urls.sort()  # Sort the filtered URLs
-
     with open(output_file, 'w') as outfile:
         for url in filtered_urls:
             outfile.write(url)
+
+# Replace Parameter value with 'FUZZ'
+def replace_parameter_values(filename):
+    updated_urls = []
+
+    with open(filename, 'r') as file:
+        for url in file:
+            parts = url.strip().split('&')
+            updated_parts = []
+
+            for part in parts:
+                param_split = part.split('=')
+
+                if len(param_split) == 2:
+                    param_key, param_value = param_split
+                    param_value = 'FUZZ'
+                    updated_param = f"{param_key}={param_value}"
+                else:
+                    # If there's no '=', keep the part as it is
+                    updated_param = part
+
+                updated_parts.append(updated_param)
+
+            updated_url = '&'.join(updated_parts)
+            updated_urls.append(updated_url)
+
+    with open(filename, 'w') as file:
+        file.writelines("\n".join(updated_urls))
+
+# Remove URL without FUZZ and sort them
+def process_filtered_urls(input_file):
+    # Read lines from the input file and filter out empty and non-'FUZZ' lines
+    with open(input_file, 'r') as file:
+        lines = [line.strip() for line in file.readlines() if 'FUZZ' in line]
+
+    # Remove duplicates and sort the lines
+    unique_sorted_lines = sorted(set(lines))
+
+    # Write the unique, sorted lines back to the input file (overwriting it)
+    with open(input_file, 'w') as file:
+        file.write('\n'.join(unique_sorted_lines))
 
 # Function to delete a file
 def delete_file(filename):
@@ -53,6 +92,8 @@ if __name__ == '__main__':
 
     # Step 2: Filter and clean URLs, and replace parameter values with "FUZZ"
     filter_urls(extracted_URL, filtered_URL)
+    replace_parameter_values(filtered_URL)
+    process_filtered_urls(filtered_URL)
     print("[+] URLs have been filtered, cleaned, parameter values replaced with 'FUZZ', and sorted.")
 
     # Step 3: Delete the "extracted_URL.txt" file
