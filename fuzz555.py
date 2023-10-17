@@ -24,10 +24,9 @@ with open('extracted_URL.txt', 'w') as output_file:
 
 print("[+] URLs have been extracted and saved to 'extracted_URL.txt'.")
 
-file_path = "extracted_URL.txt"
 cleaned_lines = set()  # Use a set to keep track of unique lines
 
-with open(file_path, "r") as file:
+with open("extracted_URL.txt", "r") as file:
     lines = file.readlines()
 
 for line in lines:
@@ -36,7 +35,7 @@ for line in lines:
     if cleaned_line.startswith("http"):
         cleaned_lines.add(cleaned_line)
 
-with open(file_path, "w") as file:
+with open("extracted_URL.txt", "w") as file:
     # Write the unique lines back to the file, with question marks removed
     for line in cleaned_lines:
         if line.endswith("?"):
@@ -75,6 +74,21 @@ modified_urls = [replace_parameters_with_fuzz(url.strip()) for url in urls]
 # Write the modified URLs to the output file
 with open(output_filename, 'w') as output_file:
     output_file.writelines('\n'.join(modified_urls))
+
+# Remove lines without FUZZ parameter
+nofuzz = []
+
+with open("modified_URL.txt", "r") as file:
+    lines = file.readlines()
+
+for line in lines:
+    # Check if the line contains "FUZZ" in any parameter
+    if "FUZZ" in line:
+        nofuzz.append(line)
+
+with open("modified_URL.txt", "w") as output_file:
+    for line in nofuzz:
+        output_file.write(line)
 
 print("[+] Parameter values have been replaced with 'FUZZ' and saved to 'modified_URL.txt'.")
 
