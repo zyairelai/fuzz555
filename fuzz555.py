@@ -24,31 +24,20 @@ with open('extracted_URL.txt', 'w') as output_file:
 
 print("[+] URLs have been extracted and saved to 'extracted_URL.txt'.")
 
-# Clean the "extracted_URL.txt"
 file_path = "extracted_URL.txt"
 cleaned_lines = []
-remove_next_line = False
 
 with open(file_path, "r") as file:
     lines = file.readlines()
 
-for i in range(len(lines)):
-    line = lines[i].strip()
-
-    if not line:
-        remove_next_line = True
-        continue
-
-    # Check if the line ends with a question mark and remove it
-    if line.endswith('?'):
-        line = line[:-1]
-
-    if not remove_next_line:
-        cleaned_lines.append(line)
-    remove_next_line = False
+for line in lines:
+    # Remove any trailing whitespace and question marks
+    cleaned_line = line.rstrip("?").strip()
+    if cleaned_line.startswith("http"):
+        cleaned_lines.append(cleaned_line + "\n")
 
 with open(file_path, "w") as file:
-    file.write("\n".join(cleaned_lines))
+    file.write("".join(cleaned_lines))
 
 # Define the filename of the input file
 input_filename = 'extracted_URL.txt'
