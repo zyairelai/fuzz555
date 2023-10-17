@@ -31,6 +31,8 @@ with open(file_path, "r") as file:
     lines = file.readlines()
 
 for line in lines:
+    # Remove any trailing whitespace and question marks
+    cleaned_line = line.rstrip("?").strip()
     if cleaned_line.startswith("http"):
         cleaned_lines.add(cleaned_line)
 
