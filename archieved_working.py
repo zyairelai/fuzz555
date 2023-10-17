@@ -67,7 +67,7 @@ if __name__ == '__main__':
     extract_urls_from_json(json_filename, extracted_url_filename)
     print("[+] URLs have been extracted and saved to 'extracted_URL.txt'.")
 
-    # Step 2 and 2.5: Filter and clean URLs, and replace parameter values with "FUZZ"
+    # Step 2: Filter and clean URLs, and replace parameter values with "FUZZ"
     process_urls(extracted_url_filename, modified_url_filename)
     print("[+] URLs have been filtered, cleaned, parameter values replaced with 'FUZZ', and sorted.")
 
