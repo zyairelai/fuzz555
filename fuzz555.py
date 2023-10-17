@@ -31,15 +31,16 @@ with open(file_path, "r") as file:
     lines = file.readlines()
 
 for line in lines:
-    # Remove any trailing whitespace and question marks
-    cleaned_line = line.rstrip("?").strip()
     if cleaned_line.startswith("http"):
         cleaned_lines.add(cleaned_line)
 
 with open(file_path, "w") as file:
-    # Write the unique lines back to the file
+    # Write the unique lines back to the file, with question marks removed
     for line in cleaned_lines:
-        file.write(line + "\n")
+        if line.endswith("?"):
+            file.write(line[:-1] + "\n")
+        else:
+            file.write(line + "\n")
 
 # Define the filename of the input file
 input_filename = 'extracted_URL.txt'
