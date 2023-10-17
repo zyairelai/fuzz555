@@ -16,6 +16,7 @@ def extract_urls_from_json(json_filename, output_filename):
                     url += "?" + request.get('Body')
                 output_file.write(url + '\n')
 
+# Filter the URL starts with "http" and contains '?' , and sort
 def filter_urls(input_file, output_file):
     filtered_urls = []
     with open(input_file, 'r') as infile:
