@@ -27,7 +27,7 @@ http://192.168.183.159/phpMyAdmin/index.php?phpMyAdmin=FUZZ&phpMyAdmin=FUZZ&pma_
 
 ### 4. Happy Nuclei for quick win!
 ```
-nuclei -l modified_URL.txt -t '/opt/nuclei/fuzzing-templates'
+nuclei -l filtered_URL.txt -t '/opt/nuclei/fuzzing-templates'
 ```
 
 # About Nuclei 
