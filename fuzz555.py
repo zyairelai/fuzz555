@@ -6,7 +6,7 @@ import json
 
 # Function to extract URLs from a JSON file
 def extract_urls_from_json(json_filename, output_filename):
-    with open(json_filename, 'r') as file:
+    with open(json_filename, 'r', encoding='utf-8', errors='ignore') as file:
         data = json.load(file)
 
     with open(output_filename, 'w') as output_file:
